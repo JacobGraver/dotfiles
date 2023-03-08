@@ -1,2 +1,2 @@
 # dotfiles
-My Endeavouros dotfiels
+My Endeavouros dotfiles
