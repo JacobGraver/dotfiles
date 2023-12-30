@@ -1,2 +1,4 @@
 # dotfiles
-My Endeavouros dotfiles
+My dotfiles!
+
+- [] make this pretty
