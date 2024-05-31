@@ -1,0 +1,1 @@
+("~/" "~/qmk_firmware/" "~/Git/Recipe-Database/")
