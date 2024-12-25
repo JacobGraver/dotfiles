@@ -1,5 +1,9 @@
-### Variables
-#
+#################################################
+####                                         ####
+####              Fedora Sway                ####
+####                                         ####
+#################################################
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Home row direction keys, like vim
@@ -25,11 +29,10 @@ set $menu $rofi_cmd -show combi -combi-modes drun -show window -window-command $
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg /home/myth/.local/share/backgrounds/clouds.png fill
+output * bg /home/myth/.local/share/backgrounds/husky.png fill
+
+seat seat0 xcursor_theme Bibata-Modern-Ice 28
 #
-# Example configuration:
-#
-#   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
@@ -43,9 +46,9 @@ exec_always {
 # Example configuration:
 #
 exec swayidle -w \
-    timeout 300 'swaylock -f -c 000000 --image /home/myth/.local/share/backgrounds/clouds.png' \
+    timeout 300 'swaylock -f -c 000000 --image /home/myth/.local/share/backgrounds/husky.png' \
     timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-    before-sleep 'swaylock -f -c 000000 --image /home/myth/.local/share/backgrounds/clouds.png'
+    before-sleep 'swaylock -f -c 000000 --image /home/myth/.local/share/backgrounds/husky.png'
     for_window [class=".*"] inhibit_idle fullscreen
     for_window [app_id=".*"] inhibit_idle fullscreen
 #
@@ -72,7 +75,8 @@ input "type:keyboard" {
 # Read `man 5 sway-input` for more information about this section.
 
 # Window borders
-    default_border pixel 4
+    default_border pixel 3
+    client.focused "#8ec07c" "#8ec07c" "#ffffff" "#8ec07c"
 
     gaps inner 8
     gaps outer 3
@@ -105,8 +109,7 @@ input "type:keyboard" {
 
 # Custom
     bindsym $mod+p exec grim
-#   bindsym $mod+i exec vivaldi
-    bindsym $mod+o exec swaylock -f --image /home/myth/.local/share/backgrounds/clouds.png
+    bindsym $mod+o exec swaylock -f --image /home/myth/.local/share/backgrounds/husky.png
     bindsym $mod+Shift+w exec wdisplays
     bindsym $mod+n exec nautilus
     bindsym $mod+x exec emacs
@@ -166,7 +169,6 @@ input "type:keyboard" {
       # assign [class="Thunderbird"] $ws1
       # assign [class="Firefox"] $ws2
       # assign [class="Pcmanfm"] $ws3
-    assign [class="emacs"] $ws8 # TODO make sure that this works
 
 #
 # Layout stuff:
