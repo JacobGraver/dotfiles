@@ -8,7 +8,7 @@ update system
 sudo xbps-install -Su
 
 ## Install Packages
-sudo xbps install sway wdisplays kanshi emacs kitty neovim flatpak chromium cups cups-browsed foomatic-db foomatic-db-nonfree brother-brlaser system-config-printer ripgrep fd git vscode vlc libreoffice lxappearance foomatic-db-engine thunderbird pipewire wireplumber zsh waybar grimshot blueman find fd gcc curl unzip lutris gimp protonvpn-cli
+sudo xbps install sway wdisplays kanshi emacs kitty neovim flatpak chromium cups cups-browsed foomatic-db foomatic-db-nonfree brother-brlaser system-config-printer ripgrep fd git vscode vlc libreoffice lxappearance foomatic-db-engine thunderbird pipewire wireplumber zsh waybar grimshot blueman find fd gcc curl unzip lutris gimp protonvpn-cli libcupsfilters
 
 ## Audio Setup
 mkdir -p /etc/pipewire/pipewire.conf.d
