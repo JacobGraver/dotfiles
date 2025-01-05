@@ -1,5 +1,5 @@
 # dotfiles
-My --fedora-- void sway rice.
+My ~~fedora~~ void sway rice.
 
 
 # Void
