@@ -24,6 +24,8 @@ sudo reboot
 http://localhost:631/
 
 ## Doom Emacs
+Launch Emacs with emacsclient -c -a emacs
+
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 
