@@ -27,8 +27,6 @@ http://localhost:631/
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 
-- [ ] Add doom to .zshrc
-
 ## Lazyvim
 mv ~/.config/nvim{,.bak}
 
