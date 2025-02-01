@@ -1,0 +1,16 @@
+2024/12/12-17:14:29.014 12199 Reusing MANIFEST /home/myth/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/12/12-17:14:29.021 12199 Recovering log #15
+2024/12/12-17:14:29.021 12199 Reusing old log /home/myth/.config/discord/Local Storage/leveldb/000015.log 
+2024/12/12-17:35:31.827 12180 Level-0 table #19: started
+2024/12/12-17:35:31.851 12180 Level-0 table #19: 3293934 bytes OK
+2024/12/12-17:35:31.852 12180 Delete type=0 #15
+2024/12/12-17:35:31.853 12180 Compacting 4@0 + 1@1 files
+2024/12/12-17:35:31.870 12180 Generated table #20@0: 6 keys, 2437458 bytes
+2024/12/12-17:35:31.894 12180 Generated table #21@0: 31 keys, 865832 bytes
+2024/12/12-17:35:31.894 12180 Compacted 4@0 + 1@1 files => 3303290 bytes
+2024/12/12-17:35:31.895 12180 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/12/12-17:35:31.895 12180 Delete type=2 #8
+2024/12/12-17:35:31.895 12180 Delete type=2 #11
+2024/12/12-17:35:31.895 12180 Delete type=2 #14
+2024/12/12-17:35:31.895 12180 Delete type=2 #16
+2024/12/12-17:35:31.895 12180 Delete type=2 #19

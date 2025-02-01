@@ -1,0 +1,6 @@
+2024/12/15-18:48:50.088 69a4 Reusing MANIFEST /home/myth/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/12/15-18:48:50.093 69a4 Recovering log #18
+2024/12/15-18:48:50.093 69a4 Reusing old log /home/myth/.config/discord/Local Storage/leveldb/000018.log 
+2024/12/15-18:56:58.274 69a4 Level-0 table #24: started
+2024/12/15-18:56:58.319 69a4 Level-0 table #24: 3302909 bytes OK
+2024/12/15-18:56:58.321 69a4 Delete type=0 #18

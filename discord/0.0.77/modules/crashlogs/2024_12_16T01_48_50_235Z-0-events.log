@@ -1,0 +1,14 @@
+2024-12-16T01:48:50.240Z 0: 
+
+----------------------------------------------
+2024-12-16T01:48:50.248Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.77"}, modulepath: /home/myth/.config/discord/0.0.77/modules
+2024-12-16T01:48:50.256Z 2: ✅ webContents.created web1 "index.html"
+2024-12-16T01:48:50.263Z 3: ✅ window.created win1 "discord"
+2024-12-16T01:48:50.439Z 4: ✅ webContents.did-finish-load web1
+2024-12-16T01:49:01.401Z 5: ✅ webContents.created web2 ""
+2024-12-16T01:49:01.416Z 6: ✅ window.created win2 "Discord"
+2024-12-16T01:49:06.847Z 7: ✅ webContents.did-finish-load web2
+2024-12-16T01:49:06.947Z 8: window.close win1
+2024-12-16T01:49:06.973Z 9: webContents.destroyed web1
+2024-12-16T01:49:06.973Z 10: window.closed win1
+2024-12-16T02:00:43.037Z 11: window.close win2
