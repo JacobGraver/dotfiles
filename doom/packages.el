@@ -50,3 +50,4 @@
 ;; (unpin! t)
 
 (package! ox-pandoc)
+(package! catppuccin-theme)
